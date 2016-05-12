@@ -1,0 +1,159 @@
+stylesheet.css
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  position: fixed;
+  top: 0;
+  display: inline;
+  float: right;
+}
+li {
+  float: left;
+  margin: 5px 10px;
+  display: inline;
+  padding-top: 0;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	border: solid white 1px;
+	padding: 7px;
+
+}
+
+a:hover { 
+	color: black;
+	background-color: white;
+	border: solid white 1px;
+}
+
+footer {
+text-align: center;
+}
+
+body {
+   	font-family: Arial, sans-serif;
+    background: url('images/flowers.jpg') center top fixed;
+    }
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h4 {
+	color: dimgrey;
+	font-size: 32px;
+	font-family: Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1;
+	text-align: center;
+}
+
+p {
+	color: dimgrey;
+	font-size: 18px;
+	font-family: avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.25;
+	text-align: center;
+	padding: 10px;
+}
+
+header {
+	background-color: black;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: inline-block;
+}
+
+header h1 {
+	color: white;
+	font-family: Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.25;
+	font-size: 24px;
+	letter-spacing: 2px;
+	display: inline;
+	float: left;
+	padding-left: 10px;
+}
+
+footer p {
+	font-size: 12px;
+	color: white;
+}
+
+nav {
+	float: right;
+	z-index: 100;
+	display: inline-block;
+	padding-top: -20px;
+}
+
+article {
+  font-family: Avenir, Helvetica, sans-serif;
+  margin: 0 auto;
+  width: 760px;
+  background-color: rgba(255,255,255,.8);
+  padding: 10px;
+  margin-top: 80px;
+}
+
+.container {
+	margin: auto;
+	width: 800px;
+}
+
+.box > div {
+  background-color: black;
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box .where {
+	background-color: black;
+	color: white;
+}
+
+.box .where:hover {
+	background-color: red;
+	color: white;
+}
+
+.box .when {
+	background-color: black;
+	color: white;
+}
+
+.box .when:hover {
+	background-color: teal;
+	color: white;
+}
+
+.box .time {
+	background-color: black;
+	color: white;
+}
+
+.box .time:hover {
+	background-color: purple;
+	color: white;
+}
+
+.box .heart {
+	background-color: black;
+	color: white;
+}
+
+.box .heart:hover {
+	background-color: orange;
+	color: white;
+}
+
